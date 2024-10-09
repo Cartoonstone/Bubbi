@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    margin: 0 auto;
+    font-family: "roboto";
+    
+}
+
+.toplitur{
+    background-color: rgb(47, 47, 47);
+    margin: 0;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+
+.titill{
+    text-align: center;
+    font-size: 3em;
+    padding: 6px;
+    max-width: 70%;
+    margin: 0 auto;
+    color: antiquewhite;
+}
+
+nav{
+    text-align: center;
+    
+}
+
+nav a{
+    color: rgb(255, 120, 71);
+    font-weight: bolder;
+    border-left: 1px solid yellow;
+    padding: 1px;
+    
+}
+
+nav div a:last-child
+{
+    border-right: 1px solid yellow;
+}
+
+
+
+.mainlitur{
+    background-color: antiquewhite;
+    color: rgb(47, 47, 47);
+    font-weight: 500;
+}
+
+
+@media screen and (min-width:0px){
+
+    .tveirdalkar{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 12px;
+        max-width: 85%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+}
+
+
+@media screen and (min-width:1081px){
+
+    .tveirdalkar{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 12px;
+        max-width: 85%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+}
+
+
+p{
+    font-size: 1.25em;
+}
+
+.log{
+    font-size: 1.5em;
+}
