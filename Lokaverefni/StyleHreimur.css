@@ -35,7 +35,7 @@ nav a{
     
 }
 
-nav div a:last-child
+nav a:last-child
 {
     border-right: 1px solid yellow;
 }
@@ -60,6 +60,15 @@ nav div a:last-child
         text-align: center;
     }
     
+    footer{
+        display: grid;
+        grid-template-columns: 1fr;
+        color: antiquewhite;
+        text-align: center;
+        font-size: 1.75em;
+         
+    }
+    
 }
 
 
@@ -73,7 +82,14 @@ nav div a:last-child
         margin: 0 auto;
         text-align: center;
     }
+
+    footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: center;
+    }
     
+   
 }
 
 
